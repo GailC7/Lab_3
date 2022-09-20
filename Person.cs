@@ -11,7 +11,7 @@ namespace Lab_3
     internal class Person
     {
         private string[] arrayOfFirstNames = new string[] {
-                "Tim", "Carly", "Zane", "Becky", "Harris", "Lizzy", "Westley", "Paris", "Sam"
+                "Tim", "Carly", "Zane", "Becky", "Harris", "Lizzy", "Westley", "Paris", "Sam",
                 "Veronica" };
         //private Dependent[] dependents;
 
