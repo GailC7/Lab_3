@@ -26,7 +26,7 @@ namespace Lab_3
             Random rand = new Random();
             FirstName = arrayOfFirstNames[rand.Next(arrayOfFirstNames.Length)];
 
-            var lastArray = Lab3.LastName.GetValues(typeof(LastName));
+            var lastArray = Lab_3.LastName.GetValues(typeof(LastName));
             var value = (LastName)lastArray.GetValue(rand.Next(lastArray.Length));
             this.LastName = value.ToString();
 

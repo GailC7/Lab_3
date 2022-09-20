@@ -74,7 +74,7 @@ public class Program
                 break;
 
             case 4:
-                var lastArray = Lab3.LastName.GetValues(typeof(LastName));
+                var lastArray = Lab_3.LastName.GetValues(typeof(LastName));
                 var value = (LastName)lastArray.GetValue(random.Next(lastArray.Length));
                 Console.WriteLine(value.ToString());
                 break;
